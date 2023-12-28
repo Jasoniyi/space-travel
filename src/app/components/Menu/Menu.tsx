@@ -35,7 +35,10 @@ const NavLinks: NavLinksShape[] = [
 const Menu = () => {
   return (
     <div className={Barlow.className}>
-      <div className="flex w-screen items-center">
+      {/* Mobile View */}
+      <div className="text-white lg:hidden">Mobile Menu</div>
+      {/* Desktop Menu */}
+      <div className="hidden md:flex w-screen items-center">
         <div className="mr-16">
           <Image src={Logo} alt="logo" />
         </div>

@@ -12,6 +12,7 @@ const config: Config = {
       backgroundImage: {
         spaceBcg: "url('/bck.svg')",
         homeBck: "url('/HomeBck2.svg')",
+        tabletHomeBck: "url('/TabletHome.svg')",
       },
       colors: {
         spaceBlack: "var(--space-black)",
