@@ -13,6 +13,7 @@ const config: Config = {
         spaceBcg: "url('/bck.svg')",
         homeBck: "url('/HomeBck2.svg')",
         tabletHomeBck: "url('/TabletHome.svg')",
+        destination: "url('/Destination.svg')",
       },
       colors: {
         spaceBlack: "var(--space-black)",
