@@ -24,4 +24,16 @@ export const productImages: ImageShape = {
     "https://res.cloudinary.com/dt8whfj0k/image/upload/v1703671568/space-travel-app/Bitmap_qdzj4l.jpg",
   capsule:
     "https://res.cloudinary.com/dt8whfj0k/image/upload/v1703671103/space-travel-app/capsule_npxzkp.svg",
+  smLaunch:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1704408506/space-travel-app/smLaunch_qzqedx.svg",
+  smSpaceport:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1704408544/space-travel-app/smSpaceport_japtps.jpg",
+  smCapsule:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1704408498/space-travel-app/smCapsule_lcpak0.svg",
+  xsLaunch:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1703671115/space-travel-app/launch_ibpkvr.svg",
+  xsSpaceport:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1703671568/space-travel-app/Bitmap_qdzj4l.jpg",
+  xsCapsule:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1703671103/space-travel-app/capsule_npxzkp.svg",
 };

@@ -26,7 +26,7 @@ const NavLinks: NavLinksShape[] = [
   },
   {
     title: "03 technology",
-    link: "/",
+    link: "/technology",
   },
 ];
 
