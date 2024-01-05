@@ -15,6 +15,7 @@ const config: Config = {
         tabletHomeBck: "url('/TabletHome.svg')",
         destination: "url('/Destination.svg')",
         crewBck: "url('/crew.svg')",
+        techBck: "url('/techBck.svg')",
       },
       colors: {
         spaceBlack: "var(--space-black)",
