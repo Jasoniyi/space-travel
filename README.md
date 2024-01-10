@@ -64,7 +64,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Jasoniyi/space-travel)
-- Live Site URL: [Add live site URL here](https://vercel.com/jasoniyi/lays-crisp-landing-page)
+- Live Site URL: [Add live site URL here](https://space-travel-one.vercel.app/)
 
 ## My process
 
