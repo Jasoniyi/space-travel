@@ -90,7 +90,7 @@ const page = () => {
               </div>
             </div>
             <div className="hidden lg:flex justify-end col-span-2">
-              <img src={tech.images} alt={tech.name} />
+              <img src={tech.images} alt={tech.name} loading="lazy" />
             </div>
           </div>
         ))}
