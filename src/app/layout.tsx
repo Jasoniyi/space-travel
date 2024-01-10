@@ -15,11 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${Belle.className} relative`}>
-        <div className="absolute top-10 left-12">
+      <body className={`${Belle.className} `}>
+        <div className="">
           <Menu />
         </div>
-
         {children}
       </body>
     </html>
