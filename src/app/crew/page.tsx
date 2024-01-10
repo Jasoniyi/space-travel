@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import spaceMissionData from "@/data/data";
 import { Barlow } from "../Fonts/Fonts";
 
-const page = () => {
+const Page = () => {
   const [activeCard, setActiveCard] = useState<string>("commander");
 
   const crewLinks = [
@@ -95,4 +95,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
