@@ -34,3 +34,55 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Practice - Lays Crisp Landing Page
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- Create a landing page from the lays Crisp Figma link
+
+### Screenshot
+
+![](./spaceTravel.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/Jasoniyi/space-travel)
+- Live Site URL: [Add live site URL here](https://vercel.com/jasoniyi/lays-crisp-landing-page)
+
+## My process
+
+### Built with
+
+- tailwindcss
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- Nextjs
+
+### What I learned
+
+I learnt how to use Nextjs
+
+### Useful resources
+
+- [Example resource 1](https://nextjs.org/docs) - This helped me with solve some issues on Nextjs
+
+## Acknowledgments
+
+A hat tip to frontend mentors, they have awesome web and mobile templates.
