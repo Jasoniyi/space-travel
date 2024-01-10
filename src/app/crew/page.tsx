@@ -39,7 +39,7 @@ const Page = () => {
                     <span className="text-spaceBlue uppercase text-2xl tracking-wide">
                       {crew.role}
                     </span>
-                    <span className="uppercase text-center lg:text-left text-5xl text-spaceWhite tracking-widest">
+                    <span className="uppercase text-center lg:text-left text-3xl sm:text-5xl text-spaceWhite tracking-widest">
                       {crew.name}
                     </span>
                     <p className="text-spaceBlue text-lg sm:w-[25em] text-center lg:text-left lg:items-start lg:w-[21em]">
