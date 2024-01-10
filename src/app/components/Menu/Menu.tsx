@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Barlow } from "../../Fonts/Fonts";
 import { usePathname } from "next/navigation";
+import MobileMenu from "../MobileMenu";
 
 type NavLinksShape = {
   title: string;
@@ -36,12 +37,14 @@ const Menu = () => {
   return (
     <div className={`${Barlow.className}`}>
       {/* Mobile View */}
-      <div className="absolute top-0 text-white lg:hidden">Mobile Menu</div>
+      <div className="absolute top-0 text-white sm:hidden">
+        <MobileMenu navLinks={NavLinks} />
+      </div>
       {/* Desktop Menu */}
       <div className="absolute top-10">
         <div className="hidden md:flex w-screen items-center">
           <div className="mx-16">
-            <Image src={Logo} alt="logo" />
+            <Image src={Logo} alt="logo" className="sm:w-[16em] lg:w-[3em]" />
           </div>
           <div className=" border-gray-500 border-b-[1px] w-[31em]"></div>
           <div className="bg-blue-500 backdrop-blur-md bg-opacity-5 flex-1">
@@ -55,8 +58,12 @@ const Menu = () => {
                         : ""
                     }`}
                   >
-                    <span className="uppercase tracking-widest">
+                    <span className="hidden lg:block uppercase tracking-widest">
                       {links.title}
+                    </span>
+
+                    <span className="sm:block lg:hidden uppercase tracking-widest">
+                      {links.title.replace(/^\d+\s/, "")}
                     </span>
                   </div>
                 </Link>

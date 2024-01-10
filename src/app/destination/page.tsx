@@ -31,7 +31,12 @@ const Page = () => {
                       <span className="">Pick your destination</span>
                     </div>
                     <div className="">
-                      <img src={destination.images} alt={destination.name} />
+                      <img
+                        src={destination.images}
+                        alt={destination.name}
+                        className="w-[17em] lg:w-full"
+                        loading="lazy"
+                      />
                     </div>
                   </div>
                 </div>
