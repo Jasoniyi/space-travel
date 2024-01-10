@@ -20,6 +20,11 @@ const MobileMenu = ({ navLinks }: any) => {
   const handleOpen = () => {
     setOpen(!open);
   };
+
+  const handleLinkClick = () => {
+    setOpen(false);
+  };
+
   return (
     <div className="w-screen py-6">
       <div className="flex justify-between">
@@ -46,6 +51,7 @@ const MobileMenu = ({ navLinks }: any) => {
                       <div
                         className="flex flex-col py-6 text-xl uppercase tracking-wider"
                         key={i}
+                        onClick={handleLinkClick}
                       >
                         {links.title}
                       </div>
