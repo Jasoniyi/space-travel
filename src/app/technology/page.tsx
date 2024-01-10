@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Barlow } from "../Fonts/Fonts";
 import spaceMissionData from "@/data/data";
 
-const page = () => {
+const Page = () => {
   const [activeCard, setActiveCard] = useState<string>("launch vehicle");
 
   const techLinks = ["launch vehicle", "spaceport", "space capsule"];
@@ -98,4 +98,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

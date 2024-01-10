@@ -9,10 +9,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { Barlow } from "../Fonts/Fonts";
 import Link from "next/link";
 
-// type NavLinksShape = {
-//   title: string;
-//   link: string;
-// };
+interface NavLink {
+  link: string;
+  title: string;
+}
 
 const MobileMenu = ({ navLinks }: any) => {
   const [open, setOpen] = useState<boolean>(false);
@@ -41,7 +41,7 @@ const MobileMenu = ({ navLinks }: any) => {
                   </div>
                 </div>
                 <div className="px-8">
-                  {navLinks.map((links, i) => (
+                  {navLinks.map((links: NavLink, i: number) => (
                     <Link key={`links-${i}`} href={links.link} passHref>
                       <div
                         className="flex flex-col py-6 text-xl uppercase tracking-wider"
